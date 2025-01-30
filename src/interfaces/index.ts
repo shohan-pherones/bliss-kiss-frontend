@@ -60,3 +60,9 @@ export interface Content {
   title: string;
   descriptions: string[];
 }
+
+export interface FAQItem {
+  title: string;
+  content: string;
+  isDefaultChecked?: boolean;
+}

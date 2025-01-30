@@ -1,4 +1,4 @@
-import { Content, NavLink, Service, SocialLink } from "@/interfaces";
+import { Content, FAQItem, NavLink, Service, SocialLink } from "@/interfaces";
 import { Facebook, Instagram, Youtube } from "lucide-react";
 
 export const navLinks: NavLink[] = [
@@ -473,5 +473,114 @@ export const nudityConsentPolicyContents: Content[] = [
       "Any intimate interaction with the founder is based on the principles of respect, consent, and mutual understanding. Our founder is dedicated to fostering an environment where all actions are aligned with your comfort level and personal boundaries. Whether you choose to have one-on-one sessions or engage in more personal experiences, the founder ensures that all interactions are consensual, safe, and free from any form of pressure.",
       "It’s important to note that these experiences are entirely voluntary, and you are free to opt-out at any time. If you wish to discontinue or adjust any part of your experience, we encourage you to communicate openly, and your decision will be respected without hesitation. We are committed to providing you with a space where your choices are honored, and your comfort and privacy remain our top priority.",
     ],
+  },
+];
+
+export const faqItems: FAQItem[] = [
+  {
+    title: "What types of treatments do you offer?",
+    content:
+      "We offer a variety of treatments including facials, massages, body scrubs, manicures, pedicures, and more. Our services are designed to promote relaxation, rejuvenation, and wellness.",
+    isDefaultChecked: true,
+  },
+  {
+    title: "How do I book an appointment?",
+    content:
+      "Appointments can be booked through our website, by calling our spa directly, or by visiting us in person. You can also schedule through our mobile app if you prefer.",
+  },
+  {
+    title: "What should I bring to my appointment?",
+    content:
+      "For most treatments, we provide everything you need, including robes, towels, and slippers. However, feel free to bring any personal items that may enhance your comfort, such as your favorite lotion or skincare products.",
+  },
+  {
+    title: "Do I need to arrive early for my appointment?",
+    content:
+      "We recommend arriving 15-20 minutes before your scheduled appointment to allow time for check-in, filling out any necessary forms, and settling into a relaxing environment.",
+  },
+  {
+    title: "Are your treatments suitable for pregnant women?",
+    content:
+      "We offer prenatal massage and other treatments tailored to expectant mothers. However, we recommend consulting with your healthcare provider before booking any treatments.",
+  },
+  {
+    title: "What is your cancellation policy?",
+    content:
+      "We require a 24-hour notice for cancellations or rescheduling. A cancellation fee may apply for appointments missed without prior notice.",
+  },
+  {
+    title: "Do you offer gift cards?",
+    content:
+      "Yes, we offer gift cards for our treatments, which can be purchased in-store or online. They make the perfect gift for a loved one!",
+  },
+  {
+    title: "Can I request a specific therapist?",
+    content:
+      "Yes, you can request a specific therapist when booking your appointment. We’ll do our best to accommodate your request based on availability.",
+  },
+  {
+    title: "What is the best time to visit your spa?",
+    content:
+      "Our spa is open year-round, and each season offers a unique experience. However, weekdays tend to be less crowded, and weekends are ideal for those looking for a lively atmosphere.",
+  },
+  {
+    title: "Are your products cruelty-free?",
+    content:
+      "Yes, we are committed to using cruelty-free products in all of our treatments. We prioritize eco-friendly and sustainable brands that align with our values.",
+  },
+  {
+    title: "Can I bring my children to the spa?",
+    content:
+      "We recommend that our spa environment is best suited for adults. However, we do offer special family packages for parents and children. Please contact us to inquire about availability.",
+  },
+  {
+    title: "Do you offer packages for special occasions?",
+    content:
+      "Yes, we offer special packages for weddings, birthdays, anniversaries, and other celebrations. These packages can be customized to include various treatments and services.",
+  },
+  {
+    title: "Is there a membership program?",
+    content:
+      "Yes, we offer a membership program that provides exclusive benefits such as discounted treatments, priority booking, and special offers.",
+  },
+  {
+    title: "Are your services suitable for men?",
+    content:
+      "Absolutely! We offer treatments designed specifically for men, including massages, facials, and grooming services tailored to your needs.",
+  },
+  {
+    title: "What is the difference between a Swedish and deep tissue massage?",
+    content:
+      "A Swedish massage uses long, flowing strokes for relaxation, while a deep tissue massage focuses on releasing muscle tension and addressing specific pain points using more intense pressure.",
+  },
+  {
+    title: "Do you offer spa parties?",
+    content:
+      "Yes, we offer spa parties for groups of friends or colleagues. Whether you're celebrating a special occasion or just want to relax together, we’ll create a memorable experience tailored to your group.",
+  },
+  {
+    title: "Do you accept walk-ins?",
+    content:
+      "While we recommend booking an appointment in advance, we do accept walk-ins based on availability. We suggest calling ahead to check for open slots.",
+  },
+  {
+    title: "Do you have parking available?",
+    content:
+      "Yes, we provide convenient parking for our guests. There are both free and paid parking options available near the spa.",
+  },
+  {
+    title: "What should I expect during a facial?",
+    content:
+      "During a facial, your skin will be cleansed, exfoliated, and treated with nourishing products to address your specific skin concerns. You’ll also enjoy a relaxing massage and a rejuvenating mask.",
+  },
+  {
+    title: "Can I combine different treatments during my visit?",
+    content:
+      "Yes, you can combine multiple treatments during your visit. We offer customizable packages to allow you to enjoy a variety of services in one visit, such as a massage followed by a facial or body scrub.",
+  },
+  {
+    title: "What happens if I arrive late for my appointment?",
+    content:
+      "If you arrive late, we will do our best to accommodate you, but please note that your treatment may need to be shortened to ensure that we stay on schedule for other guests.",
   },
 ];
