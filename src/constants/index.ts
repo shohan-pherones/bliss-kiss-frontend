@@ -17,6 +17,7 @@ export const policyLinks: NavLink[] = [
   { id: 1, route: "/terms-of-use", label: "Terms of Use" },
   { id: 2, route: "/privacy-policy", label: "Privacy Policy" },
   { id: 3, route: "/cookie-policy", label: "Cookie Policy" },
+  { id: 4, route: "/nudity-consent-policy", label: "Nudity Consent Policy" },
 ];
 
 export const socialLinks: SocialLink[] = [
@@ -357,6 +358,120 @@ export const privacyPolicyContents: Content[] = [
     descriptions: [
       "We reserve the right to update or modify this Privacy Policy at any time. Any changes will be reflected on this page, and we will update the 'Last Revised' date at the top of the page. We encourage you to review this Privacy Policy periodically to stay informed about how we are protecting your information.",
       "If significant changes are made, we may notify you by email or through a notice on our website. Continued use of our services after any changes to this Privacy Policy constitutes acceptance of the updated terms.",
+    ],
+  },
+];
+
+export const cookiePolicyContents: Content[] = [
+  {
+    id: 1,
+    title: "Introduction",
+    descriptions: [
+      "This Cookie Policy explains how we use cookies and similar tracking technologies on our website. By using our website, you consent to our use of cookies in accordance with this policy. Please read it carefully to understand the types of cookies we use, the purposes for which we use them, and how you can manage your cookie preferences.",
+      "Cookies are small text files that are stored on your device to help us improve your user experience. This policy outlines the types of cookies we use and the control you have over them.",
+    ],
+  },
+  {
+    id: 2,
+    title: "What Are Cookies?",
+    descriptions: [
+      "Cookies are small pieces of data stored on your device (computer, tablet, smartphone, etc.) when you visit a website. These cookies allow the website to remember your preferences, improve functionality, and track user behavior to enhance your browsing experience. Cookies can either be session cookies, which expire once you close your browser, or persistent cookies, which stay on your device until they expire or you delete them.",
+      "We also use similar technologies like web beacons and pixels, which function in a similar way to cookies, to track user behavior and improve our services.",
+    ],
+  },
+  {
+    id: 3,
+    title: "Types of Cookies We Use",
+    descriptions: [
+      "We use several categories of cookies on our website. Essential cookies are necessary for the basic functionality of our website. They allow you to navigate the site and access secure areas, such as your account or booking page. Performance cookies collect anonymous data about how users interact with our website. This helps us improve our website by analyzing user behavior, such as pages visited or error messages encountered. Functionality cookies enable our website to remember your preferences, such as language or region, and provide enhanced features, making your experience more personalized. Advertising or targeting cookies are used to deliver relevant ads based on your interests. They track your browsing behavior and can be used to limit the number of times you see an ad.",
+    ],
+  },
+  {
+    id: 4,
+    title: "How We Use Cookies",
+    descriptions: [
+      "We use cookies for several purposes. They help enhance your user experience by remembering your preferences and settings, analyze how our website is used and improve its performance, provide targeted advertising that aligns with your interests and browsing history, and ensure the security and functionality of our website and services.",
+    ],
+  },
+  {
+    id: 5,
+    title: "Managing Your Cookie Preferences",
+    descriptions: [
+      "You have the ability to manage your cookie preferences at any time. Most browsers allow you to block or delete cookies through your browser settings. However, please note that if you block or delete cookies, some features of our website may not function as intended. To manage cookies in your browser, you can usually find the options under the 'Privacy' or 'Security' settings. You can also configure your browser to alert you when cookies are being used or to automatically reject all cookies.",
+      "If you would like to learn more about how to manage cookies in popular browsers, you can visit their support pages for detailed instructions.",
+    ],
+  },
+  {
+    id: 6,
+    title: "Third-Party Cookies",
+    descriptions: [
+      "We may allow third-party companies to place cookies on our website for various purposes, such as analytics, advertising, and social media integration. These third-party cookies are governed by the privacy policies of the respective companies. For example, we may use services like Google Analytics to analyze how our website is used. These services may place cookies on your device and track your online behavior across multiple websites. We encourage you to review the privacy policies of these third-party providers for more information about their cookie usage.",
+    ],
+  },
+  {
+    id: 7,
+    title: "Changes to This Cookie Policy",
+    descriptions: [
+      "We may update this Cookie Policy from time to time to reflect changes in technology, regulations, or our practices. Any changes to this policy will be posted on this page with an updated 'Last Revised' date. We encourage you to review this policy periodically to stay informed about how we use cookies and how you can manage your preferences.",
+      "If significant changes are made, we may notify you by email or through a notice on our website.",
+    ],
+  },
+  {
+    id: 8,
+    title: "Contact Us",
+    descriptions: [
+      "If you have any questions or concerns about our use of cookies or this Cookie Policy, please contact us using the information provided on our website. We will be happy to assist you with any inquiries you may have.",
+    ],
+  },
+];
+
+export const nudityConsentPolicyContents: Content[] = [
+  {
+    id: 1,
+    title: "Nudity Consent",
+    descriptions: [
+      "At our establishment, we respect the importance of personal choice and comfort when it comes to intimate experiences. We understand that some of our services may involve moments where nudity is required or preferred to provide the most effective treatments. We want to make it clear that nudity is allowed within certain areas of our environment, as per the nature of the service being provided. Our specialists are trained to handle all situations professionally and with the utmost respect for your privacy and dignity.",
+      "We provide a safe and comfortable space where clients can choose to be nude for certain treatments, which may include showcasing specific areas of the body, such as breasts, hips, or genital areas, as appropriate. If you feel comfortable with this, you may also engage in more intimate sessions with our specialists, ensuring that all actions are consensual, respectful, and appropriate to your level of comfort. Our priority is to create an atmosphere of trust and consent, where boundaries are respected, and clients feel empowered to make informed decisions about their experiences.",
+    ],
+  },
+  {
+    id: 2,
+    title: "Professionalism and Boundaries",
+    descriptions: [
+      "While nudity is permitted within the scope of specific treatments, we emphasize that our environment upholds professionalism at all times. Our specialists are trained to maintain boundaries and to conduct all services with the highest level of respect for your comfort and privacy. Consent is the foundation of our interactions, and we encourage clear communication regarding personal preferences, boundaries, and any concerns you may have during your experience.",
+      "We are committed to maintaining a safe, respectful, and professional atmosphere at all times. If you ever feel uncomfortable or wish to make adjustments to your experience, our specialists will be more than willing to accommodate your needs and ensure that your experience remains positive and respectful.",
+    ],
+  },
+  {
+    id: 3,
+    title: "Your Comfort and Consent",
+    descriptions: [
+      "Your comfort and well-being are our top priorities. You have full control over your experience and may decide the level of engagement you wish to have. If you feel uncomfortable at any point, you are encouraged to express your preferences, and we will do everything possible to ensure that your boundaries are respected. No action will be taken without your explicit consent, and your decisions will always be honored.",
+      "We also encourage open communication with our specialists before, during, and after your treatment. If you have any questions or need further clarification about the services offered, please do not hesitate to ask. Our goal is to create an environment where you feel empowered, comfortable, and respected in every aspect of your experience.",
+    ],
+  },
+  {
+    id: 4,
+    title: "Respect for All Individuals",
+    descriptions: [
+      "We believe in fostering a space where respect, dignity, and consent are upheld at all times. We are committed to ensuring that every individual who enters our establishment is treated with the utmost respect, regardless of their personal choices. We maintain a zero-tolerance policy for any form of harassment or inappropriate behavior, ensuring that everyone feels safe and respected throughout their visit.",
+      "We encourage you to communicate any preferences, concerns, or questions you may have at any time. Your experience with us should always be one of empowerment, trust, and mutual respect, and we will do our best to support you in every step of the way.",
+    ],
+  },
+  {
+    id: 5,
+    title: "Intimate Actions with the Founder",
+    descriptions: [
+      "If you choose to engage in an intimate session with our founder, we want to ensure that you fully understand the nature of the experience. Our founder, Sabine Jovana, is committed to maintaining a professional and respectful atmosphere at all times. Intimate actions with the founder are strictly based on mutual consent and are intended to provide clients with a unique, personal experience, emphasizing comfort and trust.",
+      "As with all other services, you are free to decide your level of engagement. If you choose to participate, it is important that you communicate your boundaries clearly and ask any questions you may have to ensure the experience aligns with your preferences. The founder will respect your decisions and will ensure the entire session is conducted in a safe, dignified manner.",
+    ],
+  },
+  {
+    id: 6,
+    title: "Safe and Respectful Intimate Interactions",
+    descriptions: [
+      "Any intimate interaction with the founder is based on the principles of respect, consent, and mutual understanding. Our founder is dedicated to fostering an environment where all actions are aligned with your comfort level and personal boundaries. Whether you choose to have one-on-one sessions or engage in more personal experiences, the founder ensures that all interactions are consensual, safe, and free from any form of pressure.",
+      "It’s important to note that these experiences are entirely voluntary, and you are free to opt-out at any time. If you wish to discontinue or adjust any part of your experience, we encourage you to communicate openly, and your decision will be respected without hesitation. We are committed to providing you with a space where your choices are honored, and your comfort and privacy remain our top priority.",
     ],
   },
 ];
