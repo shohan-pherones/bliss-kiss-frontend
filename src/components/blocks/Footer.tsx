@@ -4,7 +4,7 @@ import Link from "next/link";
 const Footer = () => {
   return (
     <footer>
-      <div className="footer bg-neutral text-neutral-content p-10">
+      <div className="footer bg-neutral text-neutral-content p-4 md:p-10">
         <nav>
           <h6 className="footer-title">Offerings</h6>
           {navLinks
@@ -52,7 +52,7 @@ const Footer = () => {
           ))}
         </nav>
       </div>
-      <div className="footer bg-neutral text-neutral-content border-base-300 border-t px-10 py-4">
+      <div className="footer bg-neutral text-neutral-content border-base-300 border-t px-4 md:px-10 py-4">
         <aside>
           <p>
             <Link href="/" className="link link-hover">

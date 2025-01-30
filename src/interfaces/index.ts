@@ -15,3 +15,42 @@ export interface SocialLink {
     Omit<LucideProps, "ref"> & RefAttributes<SVGSVGElement>
   >;
 }
+
+export interface Service {
+  id: string;
+  title: string;
+  shortDescription: string;
+  longDescription: string;
+  procedures: string[];
+  specialists: Specialist[];
+  thumbnail: string;
+  banner: string;
+  perks: string[];
+  durations: number[];
+  baseCost: number;
+  conversionRate: number;
+}
+
+export interface Specialist {
+  id: string;
+  name: string;
+  image: string;
+  designation: string;
+  bio: string;
+  background: string;
+  dateOfBirth: Date;
+  gender: "male" | "female" | "other";
+  hireCost: number;
+  services: Service[];
+  secretOfferings: string[];
+  tips: string[];
+  bodyMeasurements: {
+    height: number;
+    weight: number;
+    chest: number;
+    waist: number;
+    hips: number;
+  };
+  hotness: number;
+  nudityLevel: "none" | "partial" | "full";
+}

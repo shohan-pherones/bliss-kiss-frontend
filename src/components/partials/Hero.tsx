@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import { useEffect, useState } from "react";
+import Overlay from "../elements/Overlay";
 
 interface HeroProps {
   image?: string;
@@ -12,7 +13,7 @@ interface HeroProps {
 }
 
 const Hero = ({
-  image = "/images/hero-1.jpg",
+  image = "/images/home-hero.jpg",
   headline = "Relax, Refresh, Rejuvenate",
   description = "Escape the stress of daily life and indulge in pure tranquility. Experience soothing massages, revitalizing facials, and luxurious treatments designed to nourish your body and mind.",
   ctaLink = "/services",
@@ -36,7 +37,7 @@ const Hero = ({
         backgroundImage: `url(${image})`,
       }}
     >
-      <div className="hero-overlay bg-opacity-60"></div>
+      <Overlay />
       <div className="hero-content text-neutral-content text-center">
         <div className="max-w-3xl">
           <h1 className="mb-5 text-5xl md:text-6xl lg:text-7xl xl:text-8xl 2xl:text-9xl font-bold">
