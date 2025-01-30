@@ -84,7 +84,7 @@ const SpecialistDetailsPartition = ({
         </ul>
       </div>
       <div>
-        <h3 className="text md:text-lg font-bold">Procedures</h3>
+        <h3 className="text md:text-lg font-bold">Tips</h3>
         <ul>
           {specialist.tips.map((tip, index) => (
             <li key={index + tip} className="flex items-center gap-2">
