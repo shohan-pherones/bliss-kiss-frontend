@@ -242,3 +242,54 @@ export const aboutContents: Content[] = [
     ],
   },
 ];
+
+export const termsOfUseContents: Content[] = [
+  {
+    id: 1,
+    title: "Introduction",
+    descriptions: [
+      "Welcome! By using our website and services, you agree to comply with and be bound by the following Terms of Use. These terms govern your use of our website, services, and all content provided. Please read these terms carefully before accessing or using our site. If you do not agree to these terms, you may not use our website or services. We reserve the right to update or change these terms at any time, and it is your responsibility to review them periodically for any changes.",
+      "By accessing or using our services, you accept and agree to be bound by the latest version of these Terms of Use. If you do not agree with these terms, please refrain from using our services or website.",
+    ],
+  },
+  {
+    id: 2,
+    title: "Use of Services",
+    descriptions: [
+      "Our services, including spa treatments, products, and wellness programs, are provided for personal use only. You must be at least 18 years old or have the consent of a parent or guardian to book services. By using our services, you confirm that you meet these eligibility requirements. We reserve the right to refuse service to anyone who violates these terms or engages in inappropriate behavior, including but not limited to harassment, abuse, or any activity that disrupts the operation of the services.",
+      "We provide services with the utmost care and attention to your well-being. However, we are not liable for any injuries, reactions, or adverse effects that may occur during or after spa treatments. You agree to provide accurate and complete information about your health conditions and allergies to ensure a safe experience.",
+    ],
+  },
+  {
+    id: 3,
+    title: "Intellectual Property",
+    descriptions: [
+      "All content on the website, including text, images, videos, logos, and other materials, is the property of the service provider and is protected by intellectual property laws, including copyright, trademark, and other applicable laws. You may not use, reproduce, or distribute any of our content without prior written consent.",
+      "Unauthorized use of any content from our website, including reproducing, modifying, or distributing it for commercial purposes, is strictly prohibited. All trademarks, service marks, and logos displayed on the site are the property of their respective owners.",
+    ],
+  },
+  {
+    id: 4,
+    title: "Privacy Policy",
+    descriptions: [
+      "Your privacy is important to us. Please refer to our Privacy Policy, which outlines how we collect, use, and protect your personal information when you use our services or website. By agreeing to these Terms of Use, you also consent to our Privacy Policy, which is an integral part of this agreement.",
+      "We are committed to safeguarding your privacy and protecting your personal information. We do not share your information with third parties without your consent, except as required by law.",
+    ],
+  },
+  {
+    id: 5,
+    title: "Limitation of Liability",
+    descriptions: [
+      "In no event will we be liable for any damages arising out of your use or inability to use our website or services, including but not limited to damages for loss of profits, data, or other intangible losses. This limitation of liability applies to the fullest extent permitted by law.",
+      "We do not guarantee that our website and services will meet your expectations or be free from errors, interruptions, or defects. You agree to use our services at your own risk and to take appropriate precautions to protect yourself and your data.",
+    ],
+  },
+  {
+    id: 6,
+    title: "Governing Law",
+    descriptions: [
+      "These Terms of Use will be governed by and construed in accordance with the laws of the jurisdiction in which our services are provided. Any disputes arising from these terms or your use of the website and services will be subject to the exclusive jurisdiction of the courts in that jurisdiction.",
+      "By using our services, you consent to the jurisdiction and venue of these courts and agree to resolve any disputes through binding arbitration if required by law.",
+    ],
+  },
+];
