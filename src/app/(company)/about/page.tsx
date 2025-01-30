@@ -1,8 +1,7 @@
-import SectionTitle from "@/components/elements/SectionTitle";
-import SectionWrapper from "@/components/elements/SectionWrapper";
-import Hero from "@/components/partials/Hero";
+import { SectionTitle, SectionWrapper } from "@/components/elements";
+import { Hero } from "@/components/partials/shared";
 import { aboutContents } from "@/constants";
-import { cn } from "@/lib/utils";
+import { cn } from "@/lib";
 
 const AboutPage = () => {
   return (

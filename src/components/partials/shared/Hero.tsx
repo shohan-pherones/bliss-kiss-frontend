@@ -1,8 +1,8 @@
 "use client";
 
+import { Overlay } from "@/components/elements";
 import Link from "next/link";
 import { useEffect, useState } from "react";
-import Overlay from "../elements/Overlay";
 
 interface HeroProps {
   image?: string;

@@ -1,6 +1,6 @@
+import { SpecialistCard } from "@/components/blocks/specialists";
 import { Service } from "@/interfaces";
 import { ArrowRight, Check } from "lucide-react";
-import SpecialistCard from "../blocks/SpecialistCard";
 
 interface ServiceDetailsPartitionProps {
   service: Service;

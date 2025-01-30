@@ -1,12 +1,11 @@
-import SectionTitle from "@/components/elements/SectionTitle";
-import SectionWrapper from "@/components/elements/SectionWrapper";
-import { privacyPolicyContents } from "@/constants";
-import { cn } from "@/lib/utils";
+import { SectionTitle, SectionWrapper } from "@/components/elements";
+import { nudityConsentPolicyContents } from "@/constants";
+import { cn } from "@/lib";
 
-const PrivacyPolicyPage = () => {
+const NudityConsentPolicyPage = () => {
   return (
     <SectionWrapper className="grid grid-cols-1 md:grid-cols-2 gap-5 md:gap-10">
-      {privacyPolicyContents.map((content) => (
+      {nudityConsentPolicyContents.map((content) => (
         <div key={content.id}>
           <SectionTitle title={content.title} />
           {content.descriptions.map((desc, index, arr) => (
@@ -23,4 +22,4 @@ const PrivacyPolicyPage = () => {
   );
 };
 
-export default PrivacyPolicyPage;
+export default NudityConsentPolicyPage;

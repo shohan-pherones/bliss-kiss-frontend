@@ -1,7 +1,9 @@
-import SectionWrapper from "@/components/elements/SectionWrapper";
-import Hero from "@/components/partials/Hero";
-import SpecialistDetailsPartition from "@/components/partials/SpecialistDetailsPartition";
-import SpecialistHirePartition from "@/components/partials/SpecialistHirePartition";
+import { SectionWrapper } from "@/components/elements";
+import { Hero } from "@/components/partials/shared";
+import {
+  SpecialistDetailsPartition,
+  SpecialistHirePartition,
+} from "@/components/partials/specialists";
 import { services } from "@/constants";
 import { notFound } from "next/navigation";
 

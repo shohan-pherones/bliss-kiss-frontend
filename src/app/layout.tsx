@@ -1,6 +1,5 @@
-import Footer from "@/components/partials/Footer";
-import Header from "@/components/partials/Header";
-import { cn } from "@/lib/utils";
+import { Footer, Header } from "@/components/partials/shared";
+import { cn } from "@/lib";
 import type { Metadata } from "next";
 import { Rubik } from "next/font/google";
 import "./globals.css";
@@ -10,7 +9,7 @@ const rubik = Rubik({
 });
 
 export const metadata: Metadata = {
-  title: "Bliss Kiss",
+  title: "Home | Bliss Kiss",
 };
 
 export default function RootLayout({

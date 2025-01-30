@@ -1,7 +1,6 @@
-import SectionTitle from "@/components/elements/SectionTitle";
-import SectionWrapper from "@/components/elements/SectionWrapper";
+import { SectionTitle, SectionWrapper } from "@/components/elements";
 import { cookiePolicyContents } from "@/constants";
-import { cn } from "@/lib/utils";
+import { cn } from "@/lib";
 
 const CookiePolicyPage = () => {
   return (

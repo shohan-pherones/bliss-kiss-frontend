@@ -1,5 +1,5 @@
-import Hero from "@/components/partials/Hero";
-import ServicesWrapper from "@/components/partials/ServicesWrapper";
+import { ServicesWrapper } from "@/components/partials/services";
+import { Hero } from "@/components/partials/shared";
 
 const ServicesPage = () => {
   return (

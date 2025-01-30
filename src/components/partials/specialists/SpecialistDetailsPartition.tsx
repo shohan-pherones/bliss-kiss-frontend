@@ -1,3 +1,4 @@
+import { ServiceCard } from "@/components/blocks/services";
 import { services } from "@/constants";
 import { Specialist } from "@/interfaces";
 import {
@@ -8,9 +9,8 @@ import {
   formatBodyMeasurements,
   formatHeight,
   kgToLb,
-} from "@/lib/utils";
+} from "@/utils";
 import { ArrowRight, Check, Dot } from "lucide-react";
-import ServiceCard from "../blocks/ServiceCard";
 
 interface SpecialistDetailsPartitionProps {
   specialist: Specialist;

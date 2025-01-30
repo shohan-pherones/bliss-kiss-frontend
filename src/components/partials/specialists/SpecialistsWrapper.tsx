@@ -1,11 +1,10 @@
 "use client";
 
+import { SpecialistCard } from "@/components/blocks/specialists";
+import { SectionTitle, SectionWrapper } from "@/components/elements";
 import { services } from "@/constants";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import SpecialistCard from "../blocks/SpecialistCard";
-import SectionTitle from "../elements/SectionTitle";
-import SectionWrapper from "../elements/SectionWrapper";
 
 const SpecialistsWrapper = () => {
   const pathname = usePathname();
