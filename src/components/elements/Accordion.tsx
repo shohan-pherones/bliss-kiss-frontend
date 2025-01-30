@@ -1,14 +1,14 @@
-interface AccordionItemProps {
+export interface AccordionItemProps {
   title: string;
   content: string;
   isDefaultChecked?: boolean;
 }
 
-interface AccordionProps {
+export interface AccordionProps {
   items: { title: string; content: string; isDefaultChecked?: boolean }[];
 }
 
-const AccordionItem = ({
+export const AccordionItem = ({
   title,
   content,
   isDefaultChecked,
