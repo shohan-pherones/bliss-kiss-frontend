@@ -54,3 +54,9 @@ export interface Specialist {
   hotness: number;
   nudityLevel: "none" | "partial" | "full";
 }
+
+export interface Content {
+  id: number;
+  title: string;
+  descriptions: string[];
+}

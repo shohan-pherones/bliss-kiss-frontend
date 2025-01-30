@@ -1,4 +1,4 @@
-import { NavLink, Service, SocialLink } from "@/interfaces";
+import { Content, NavLink, Service, SocialLink } from "@/interfaces";
 import { Facebook, Instagram, Youtube } from "lucide-react";
 
 export const navLinks: NavLink[] = [
@@ -173,5 +173,72 @@ export const services: Service[] = [
     durations: [45, 75],
     baseCost: 95,
     conversionRate: 1.95,
+  },
+];
+
+export const aboutContents: Content[] = [
+  {
+    id: 1,
+    title: "Our Story",
+    descriptions: [
+      "Our journey began with a vision to create a sanctuary for relaxation and rejuvenation. We wanted to build a space where everyone could escape the stresses of everyday life and feel truly pampered. The founders, passionate about wellness and beauty, combined their expertise in the spa industry with a deep love for nature. Over the years, our commitment to providing exceptional service and creating a warm, inviting atmosphere has made us a favorite destination for those seeking tranquility.",
+      "From our humble beginnings, we have grown to become one of the top-rated spas in the area. With each step of our journey, we’ve remained true to our roots of offering personalized experiences to every guest. Our team of dedicated professionals continues to refine our services, ensuring that we stay ahead of trends while maintaining the timeless essence of what makes our spa unique.",
+    ],
+  },
+  {
+    id: 2,
+    title: "Our Mission",
+    descriptions: [
+      "Our mission is to provide a transformative spa experience that promotes holistic wellness, relaxation, and beauty. We believe in the power of self-care and are dedicated to creating a space where every individual can unwind, recharge, and rejuvenate both physically and mentally. We aim to make wellness accessible to all, offering personalized treatments designed to meet the unique needs of our clients, whether they are seeking relief from stress, enhanced beauty, or overall wellness.",
+      "We are committed to using high-quality, natural ingredients in all of our treatments, ensuring that each service not only nurtures your body but also contributes to a healthier planet. Our mission extends beyond simply pampering our clients; we strive to help them feel their best, both inside and out, fostering an environment where relaxation is more than just a moment – it’s a lasting experience.",
+    ],
+  },
+  {
+    id: 3,
+    title: "Our Passion",
+    descriptions: [
+      "At the heart of everything we do is a deep passion for enhancing the lives of our clients through holistic care. We are driven by a genuine love for wellness, beauty, and relaxation. Each treatment we offer is carefully crafted to bring the best out of our guests, helping them feel rejuvenated and ready to take on the world. Our passion extends to providing a sanctuary where clients can disconnect from the chaos of their everyday lives and find true peace.",
+      "Our team of experts shares a collective love for helping others feel their best, whether it’s through a soothing massage, a rejuvenating facial, or simply providing a moment of peace. The energy we pour into every aspect of our spa creates an atmosphere that promotes healing, self-love, and well-being. This passion fuels our dedication to offering the best spa experience possible.",
+    ],
+  },
+  {
+    id: 4,
+    title: "Founder",
+    descriptions: [
+      "Sabine Jovana, the visionary founder of our spa, has always been passionate about the intersection of wellness and beauty. With years of experience in the spa industry, she has built a reputation for her commitment to providing exceptional, personalized care. Sabine’s journey began as a therapist herself, but over time, her dedication to creating the perfect spa environment led her to establish this sanctuary where guests could experience truly transformative treatments.",
+      "What makes Sabine’s vision unique is her belief that a spa is not just a place for relaxation but a community where clients can build meaningful connections. Through regular engagements and intimate sessions, Sabine ensures that every client feels valued, heard, and cared for. She’s always available to chat and share her passion for wellness, allowing clients to get to know her on a personal level and become a part of the spa’s extended family.",
+    ],
+  },
+  {
+    id: 5,
+    title: "Our Environment",
+    descriptions: [
+      "Our spa environment is designed to be a peaceful haven where you can disconnect from the outside world. From the moment you walk through our doors, you are welcomed by calming scents, soothing sounds, and a serene atmosphere that immediately puts your mind at ease. The design is inspired by natural elements, creating a space that feels organic, inviting, and full of tranquility. Whether you’re enjoying a treatment in one of our luxurious treatment rooms or relaxing in our waiting area, the environment is crafted to help you feel relaxed and rejuvenated.",
+      "We believe that the right environment can greatly enhance the overall spa experience. That’s why we’ve invested in creating spaces that promote comfort and serenity. The décor combines elegance with simplicity, and every detail is chosen with relaxation in mind. We want our guests to feel like they’ve entered a peaceful oasis, far away from the hustle and bustle of everyday life, where they can truly unwind.",
+    ],
+  },
+  {
+    id: 6,
+    title: "Our Standards",
+    descriptions: [
+      "We hold ourselves to the highest standards of quality, service, and excellence. Every treatment we offer is performed by highly skilled professionals who are dedicated to ensuring that your experience is nothing short of perfect. We use only the finest products and treatments, handpicked to ensure that every service we provide is effective, safe, and beneficial for your health and well-being. Our standards extend beyond the treatment room – from the cleanliness of our facility to the friendliness of our staff, we strive for excellence in everything we do.",
+      "Our commitment to quality is unwavering, and we believe that each client deserves a personalized, unforgettable experience. Whether you are visiting us for a quick treatment or indulging in a full day of pampering, we maintain the same level of care and attention to detail, ensuring that your visit is as comfortable and enjoyable as possible.",
+    ],
+  },
+  {
+    id: 7,
+    title: "Our Commitments",
+    descriptions: [
+      "We are committed to providing a spa experience that exceeds your expectations every time. We strive to continuously improve our services, ensuring that we offer the latest in spa treatments, wellness techniques, and relaxation methods. Our commitment is to make your well-being a priority, offering personalized treatments that address your specific needs and goals. We’re here not only to pamper you but also to support your journey to wellness, helping you achieve balance, peace, and beauty.",
+      "In addition to our dedication to quality, we are also committed to sustainability and environmental responsibility. We use eco-friendly products, and we are continuously working to reduce our carbon footprint. We believe that taking care of yourself should not come at the expense of the planet, and we are committed to doing our part in creating a better, more sustainable world for future generations.",
+    ],
+  },
+  {
+    id: 8,
+    title: "Our Community",
+    descriptions: [
+      "At the heart of our spa is a vibrant and supportive community of clients and professionals who share a common passion for wellness, self-care, and healing. We believe that true wellness extends beyond physical treatments – it’s about nurturing relationships and creating a space where people feel connected and supported. Our community is a place where clients not only come to relax and recharge but also find inspiration, support, and like-minded individuals who value personal growth and well-being.",
+      "We are proud to foster a sense of belonging among our clients. Through special events, wellness workshops, and social gatherings, we create opportunities for our guests to engage with one another, learn, and grow together. Whether it's a group meditation session, a skincare tutorial, or a wellness talk, our community initiatives are designed to inspire and uplift. We see our spa as more than just a business – it’s a place where people come together to build lasting connections, support one another, and create a sense of belonging that goes beyond just a spa visit.",
+    ],
   },
 ];

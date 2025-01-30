@@ -1,4 +1,8 @@
+import SectionTitle from "@/components/elements/SectionTitle";
+import SectionWrapper from "@/components/elements/SectionWrapper";
 import Hero from "@/components/partials/Hero";
+import { aboutContents } from "@/constants";
+import { cn } from "@/lib/utils";
 
 const AboutPage = () => {
   return (
@@ -10,6 +14,21 @@ const AboutPage = () => {
         ctaLink="/contact"
         ctaLabel="Get in Touch"
       />
+      <SectionWrapper className="grid grid-cols-1 md:grid-cols-2 gap-5 md:gap-10">
+        {aboutContents.map((content) => (
+          <div key={content.id}>
+            <SectionTitle title={content.title} />
+            {content.descriptions.map((desc, index, arr) => (
+              <p
+                className={cn(index === arr.length - 1 ? "" : "mb-5 md:mb-10")}
+                key={index + desc}
+              >
+                {desc}
+              </p>
+            ))}
+          </div>
+        ))}
+      </SectionWrapper>
     </div>
   );
 };
