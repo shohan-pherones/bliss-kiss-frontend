@@ -5,6 +5,7 @@ interface ServiceBookingPartitionProps {
 }
 
 const ServiceBookingPartition = ({ service }: ServiceBookingPartitionProps) => {
+  console.log(service);
   return <div>ServiceBookingPartition</div>;
 };
 

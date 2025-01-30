@@ -7,6 +7,7 @@ interface SpecialistHirePartitionProps {
 const SpecialistHirePartition = ({
   specialist,
 }: SpecialistHirePartitionProps) => {
+  console.log(specialist);
   return <div>SpecialistHirePartition</div>;
 };
 
