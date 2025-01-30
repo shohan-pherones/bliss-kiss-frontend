@@ -20,10 +20,6 @@ const ServiceCard = ({ service }: ServiceCardProps) => {
         />
       </figure>
       <div className="card-body">
-        <span className="badge badge-secondary">
-          {service.specialists.length} specialist
-          {service.specialists.length > 1 ? "s" : ""}
-        </span>
         <h2 className="card-title">{service.title}</h2>
         <p className="text-sm opacity-50">{service.shortDescription}</p>
         <ul>
