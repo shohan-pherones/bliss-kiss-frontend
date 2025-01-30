@@ -293,3 +293,70 @@ export const termsOfUseContents: Content[] = [
     ],
   },
 ];
+
+export const privacyPolicyContents: Content[] = [
+  {
+    id: 1,
+    title: "Introduction",
+    descriptions: [
+      "Your privacy is important to us. This Privacy Policy explains how we collect, use, store, and protect your personal information when you visit our website or use our services. By using our website or services, you consent to the practices described in this policy. Please read it carefully to understand how your data will be handled.",
+      "We are committed to protecting your privacy and ensuring that your personal information is used only in ways that are necessary for providing the best possible experience when using our services.",
+    ],
+  },
+  {
+    id: 2,
+    title: "Information We Collect",
+    descriptions: [
+      "We collect personal information that you provide to us directly, such as when you make a booking, contact us, or subscribe to our newsletter. This may include your name, email address, phone number, payment details, and other information necessary to provide our services. We may also collect information about your preferences, past services, and feedback to improve our offerings.",
+      "In addition, we automatically collect certain data when you visit our website, such as IP addresses, browser type, and pages viewed. This information helps us improve our website and tailor our services to better suit your needs.",
+    ],
+  },
+  {
+    id: 3,
+    title: "How We Use Your Information",
+    descriptions: [
+      "We use your personal information to provide and enhance the services you request, communicate with you about your bookings, send promotional material (if you opt-in), and process payments. Additionally, we may use your information to improve our website and services based on feedback and usage patterns.",
+      "We may also use your information to personalize your experience, respond to customer service inquiries, and send you updates about changes to our services or policies. If you subscribe to our newsletter or marketing materials, we will use your information to send relevant updates and offers.",
+    ],
+  },
+  {
+    id: 4,
+    title: "How We Protect Your Information",
+    descriptions: [
+      "We take the security of your personal information seriously and implement a variety of measures to protect it. This includes encryption, secure servers, and other industry-standard security protocols to prevent unauthorized access, disclosure, alteration, or destruction of your data.",
+      "Despite these measures, please note that no method of transmission over the internet or method of electronic storage is 100% secure. While we strive to use commercially acceptable means to protect your personal information, we cannot guarantee absolute security.",
+    ],
+  },
+  {
+    id: 5,
+    title: "Sharing Your Information",
+    descriptions: [
+      "We do not sell, rent, or trade your personal information to third parties. However, we may share your information with trusted service providers who assist in the operation of our website, booking system, payment processing, or customer service. These third parties are required to maintain the confidentiality of your information and use it only for the purposes for which it was provided.",
+      "We may also disclose your information if required by law, such as in response to a subpoena or other legal process, or when we believe in good faith that such action is necessary to protect the rights, property, or safety of our clients, employees, or the public.",
+    ],
+  },
+  {
+    id: 6,
+    title: "Cookies and Tracking Technologies",
+    descriptions: [
+      "Our website uses cookies and similar tracking technologies to enhance your browsing experience. These technologies help us remember your preferences, improve site functionality, and analyze user activity. Cookies are small data files stored on your device that allow us to personalize your experience and track usage patterns.",
+      "You can control the use of cookies through your browser settings. However, please note that disabling cookies may affect certain functionalities on our website and limit your ability to use some features.",
+    ],
+  },
+  {
+    id: 7,
+    title: "Your Rights",
+    descriptions: [
+      "You have the right to access, correct, or delete your personal information at any time. If you wish to update or delete the information we hold about you, please contact us through our customer service channels. You also have the right to withdraw your consent to receive marketing communications at any time, and we will promptly honor your request.",
+      "In some cases, you may have the right to object to or restrict certain processing of your personal data, as well as the right to request a copy of your data in a portable format. If you have any concerns about how your personal data is being handled, you can contact us for further assistance.",
+    ],
+  },
+  {
+    id: 8,
+    title: "Changes to This Privacy Policy",
+    descriptions: [
+      "We reserve the right to update or modify this Privacy Policy at any time. Any changes will be reflected on this page, and we will update the 'Last Revised' date at the top of the page. We encourage you to review this Privacy Policy periodically to stay informed about how we are protecting your information.",
+      "If significant changes are made, we may notify you by email or through a notice on our website. Continued use of our services after any changes to this Privacy Policy constitutes acceptance of the updated terms.",
+    ],
+  },
+];
