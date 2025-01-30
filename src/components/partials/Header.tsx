@@ -45,8 +45,8 @@ const Header = () => {
         <ul className="menu menu-horizontal px-1">{renderNavLinks()}</ul>
       </nav>
       <nav className="navbar-end">
-        <Link href="/services" className="btn">
-          Book Now
+        <Link href="/sign-in" className="btn">
+          Login
         </Link>
       </nav>
     </header>
