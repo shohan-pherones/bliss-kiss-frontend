@@ -1,6 +1,6 @@
 "use client";
 
-import { spaServices } from "@/constants";
+import { services } from "@/constants";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import SpecialistCard from "../blocks/SpecialistCard";
@@ -12,7 +12,7 @@ const SpecialistsWrapper = () => {
   const isSpecialistsPage = pathname === "/specialists";
 
   const specialists = [
-    ...new Set(spaServices.map((service) => service.specialists).flat()),
+    ...new Set(services.map((service) => service.specialists).flat()),
   ];
 
   const specialistsToDisplay = isSpecialistsPage

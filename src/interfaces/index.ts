@@ -39,7 +39,7 @@ export interface Specialist {
   bio: string;
   background: string;
   dateOfBirth: Date;
-  gender: "male" | "female" | "other";
+  sex: "male" | "female" | "other";
   hireCost: number;
   services: Service[];
   secretOfferings: string[];

@@ -1,5 +1,5 @@
-import Footer from "@/components/blocks/Footer";
-import Header from "@/components/blocks/Header";
+import Footer from "@/components/partials/Footer";
+import Header from "@/components/partials/Header";
 import { cn } from "@/lib/utils";
 import type { Metadata } from "next";
 import { Rubik } from "next/font/google";

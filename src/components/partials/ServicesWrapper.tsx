@@ -1,6 +1,6 @@
 "use client";
 
-import { spaServices } from "@/constants";
+import { services } from "@/constants";
 import { usePathname } from "next/navigation";
 import ServiceCard from "../blocks/ServiceCard";
 import SectionTitle from "../elements/SectionTitle";
@@ -11,9 +11,7 @@ const ServicesWrapper = () => {
   const pathname = usePathname();
   const isServicesPage = pathname === "/services";
 
-  const servicesToDisplay = isServicesPage
-    ? spaServices
-    : spaServices.slice(0, 10);
+  const servicesToDisplay = isServicesPage ? services : services.slice(0, 10);
 
   return (
     <SectionWrapper id={isServicesPage ? "explore" : undefined}>

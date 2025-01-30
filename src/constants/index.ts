@@ -25,7 +25,7 @@ export const socialLinks: SocialLink[] = [
   { id: 3, label: "YouTube", href: "https://youtube.com", icon: Youtube },
 ];
 
-export const spaServices: Service[] = [
+export const services: Service[] = [
   {
     id: "1",
     title: "Relaxing Massage Therapy",
@@ -47,7 +47,7 @@ export const spaServices: Service[] = [
         bio: "10+ years experience in deep tissue and sports massage",
         background: "Certified in multiple international massage techniques",
         dateOfBirth: new Date("1985-08-22"),
-        gender: "female",
+        sex: "female",
         hireCost: 80,
         services: [] as Service[],
         secretOfferings: ["Hot stone add-on", "Custom herbal compresses"],
@@ -71,7 +71,7 @@ export const spaServices: Service[] = [
         bio: "Expert in essential oil blends for stress relief",
         background: "Certified aromatherapist from London Institute",
         dateOfBirth: new Date("1990-12-15"),
-        gender: "female",
+        sex: "female",
         hireCost: 75,
         services: [] as Service[],
         secretOfferings: ["Custom scent blending", "Chakra balancing"],
@@ -122,7 +122,7 @@ export const spaServices: Service[] = [
         bio: "Specialist in anti-aging treatments",
         background: "Trained in Parisian skincare techniques",
         dateOfBirth: new Date("1988-04-03"),
-        gender: "female",
+        sex: "female",
         hireCost: 90,
         services: [] as Service[],
         secretOfferings: ["24k gold mask upgrade", "Cryotherapy add-on"],
@@ -146,7 +146,7 @@ export const spaServices: Service[] = [
         bio: "Focus on natural and sustainable products",
         background: "Certified organic skincare formulator",
         dateOfBirth: new Date("1993-07-19"),
-        gender: "female",
+        sex: "female",
         hireCost: 85,
         services: [] as Service[],
         secretOfferings: ["CBD-infused serum", "Guasha stone therapy"],
