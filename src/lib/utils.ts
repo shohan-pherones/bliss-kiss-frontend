@@ -55,7 +55,7 @@ export function formatBodyMeasurements(
   const waistIn = cmToInch(waist);
   const hipsIn = cmToInch(hips);
 
-  const bodyType = capitalize(determineBodyType(chestIn, waistIn, hipsIn));
+  const bodyType = capitalizeText(determineBodyType(chestIn, waistIn, hipsIn));
 
   return `${chestIn}-${waistIn}-${hipsIn} (${bodyType})`;
 }
@@ -70,10 +70,6 @@ function determineBodyType(chest: number, waist: number, hips: number): string {
   if (waist >= chest || waist >= hips) return "apple-shaped";
 
   return "toned";
-}
-
-function capitalize(text: string): string {
-  return text.charAt(0).toUpperCase() + text.slice(1);
 }
 
 export function determineHotnessType(hotness: number): string {
