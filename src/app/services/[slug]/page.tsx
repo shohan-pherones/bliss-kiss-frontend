@@ -1,7 +1,7 @@
 import SectionWrapper from "@/components/elements/SectionWrapper";
 import Hero from "@/components/partials/Hero";
-import ServiceBookingCandidate from "@/components/partials/ServiceBookingCandidate";
-import ServiceDetailsCandidate from "@/components/partials/ServiceDetailsCandidate";
+import ServiceBookingPartition from "@/components/partials/ServiceBookingPartition";
+import ServiceDetailsPartition from "@/components/partials/ServiceDetailsPartition";
 import { services } from "@/constants";
 import { notFound } from "next/navigation";
 
@@ -30,8 +30,8 @@ const ServiceDetailsPage = async ({
         id="explore"
         className="grid grid-cols-1 lg:grid-cols-2 gap-x-0 lg:gap-x-10 gap-y-5 lg:gap-y-0"
       >
-        <ServiceDetailsCandidate service={service} />
-        <ServiceBookingCandidate service={service} />
+        <ServiceDetailsPartition service={service} />
+        <ServiceBookingPartition service={service} />
       </SectionWrapper>
     </div>
   );

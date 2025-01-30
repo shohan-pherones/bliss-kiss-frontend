@@ -2,11 +2,11 @@ import { Service } from "@/interfaces";
 import { ArrowRight, Check } from "lucide-react";
 import SpecialistCard from "../blocks/SpecialistCard";
 
-interface ServiceDetailsCandidateProps {
+interface ServiceDetailsPartitionProps {
   service: Service;
 }
 
-const ServiceDetailsCandidate = ({ service }: ServiceDetailsCandidateProps) => {
+const ServiceDetailsPartition = ({ service }: ServiceDetailsPartitionProps) => {
   return (
     <div className="flex flex-col gap-2.5 lg:gap-5">
       <div>
@@ -49,4 +49,4 @@ const ServiceDetailsCandidate = ({ service }: ServiceDetailsCandidateProps) => {
   );
 };
 
-export default ServiceDetailsCandidate;
+export default ServiceDetailsPartition;
