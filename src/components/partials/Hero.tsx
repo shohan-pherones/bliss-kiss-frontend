@@ -31,7 +31,7 @@ const Hero = ({
 
   return (
     <div
-      className="hero"
+      className="hero relative"
       style={{
         height: heroHeight,
         backgroundImage: `url(${image})`,
