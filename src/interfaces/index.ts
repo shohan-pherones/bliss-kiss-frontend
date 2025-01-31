@@ -66,3 +66,9 @@ export interface FAQItem {
   content: string;
   isDefaultChecked?: boolean;
 }
+
+export interface GalleryImage {
+  id: number;
+  src: string;
+  alt: string;
+}

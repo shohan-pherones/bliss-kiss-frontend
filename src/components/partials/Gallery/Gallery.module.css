@@ -1,0 +1,21 @@
+.masonryGrid {
+  display: flex;
+  margin-left: -16px;
+  width: auto;
+}
+
+.masonryGridColumn {
+  padding-left: 16px;
+  background-clip: padding-box;
+}
+
+.masonryItem {
+  margin-bottom: 16px;
+}
+
+.masonryImage {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  display: block;
+}

@@ -3,6 +3,7 @@ import {
   ServicesWrapper,
   SpecialistsWrapper,
 } from "@/components/partials";
+import GalleryPage from "./(company)/gallery/page";
 
 const HomePage = () => {
   return (
@@ -10,6 +11,7 @@ const HomePage = () => {
       <Hero />
       <ServicesWrapper />
       <SpecialistsWrapper />
+      <GalleryPage />
     </div>
   );
 };

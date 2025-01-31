@@ -1,4 +1,11 @@
-import { Content, FAQItem, NavLink, Service, SocialLink } from "@/interfaces";
+import {
+  Content,
+  FAQItem,
+  GalleryImage,
+  NavLink,
+  Service,
+  SocialLink,
+} from "@/interfaces";
 import { Facebook, Instagram, Youtube } from "lucide-react";
 
 export const navLinks: NavLink[] = [
@@ -582,5 +589,88 @@ export const faqItems: FAQItem[] = [
     title: "What happens if I arrive late for my appointment?",
     content:
       "If you arrive late, we will do our best to accommodate you, but please note that your treatment may need to be shortened to ensure that we stay on schedule for other guests.",
+  },
+];
+
+export const galleryImages: GalleryImage[] = [
+  {
+    id: 1,
+    src: "https://images.unsplash.com/photo-1544717304-a2db4a7b16ee?q=80&w=988&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    alt: "woman wearing white towel",
+  },
+  {
+    id: 2,
+    src: "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    alt: "man wearing mud mask",
+  },
+  {
+    id: 3,
+    src: "https://images.unsplash.com/photo-1591343395082-e120087004b4?q=80&w=1171&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    alt: "grayscale photo of woman hugging baby",
+  },
+  {
+    id: 4,
+    src: "https://images.unsplash.com/photo-1506003094589-53954a26283f?q=80&w=987&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    alt: "sliced lemon on bathtub",
+  },
+  {
+    id: 5,
+    src: "https://images.unsplash.com/photo-1623120594168-a6d35474043b?q=80&w=1064&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    alt: "man in white bathrobe holding clear drinking glass with yellow liquid",
+  },
+  {
+    id: 6,
+    src: "https://images.unsplash.com/photo-1639162906614-0603b0ae95fd?q=80&w=987&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    alt: "a woman getting a back massage at a spa",
+  },
+  {
+    id: 7,
+    src: "https://images.unsplash.com/photo-1552046122-03184de85e08?q=80&w=987&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    alt: "person touching black plastic bottle",
+  },
+  {
+    id: 8,
+    src: "https://images.unsplash.com/photo-1632345031435-8727f6897d53?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    alt: "a woman getting her nails done at a nail salon",
+  },
+  {
+    id: 9,
+    src: "https://images.unsplash.com/photo-1596971041407-9897149951bb?q=80&w=968&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    alt: "a woman laying in a bathtub with flowers all around her",
+  },
+  {
+    id: 10,
+    src: "https://images.unsplash.com/photo-1640058885225-3efdce67628c?q=80&w=987&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    alt: "a woman with dreadlocks in a pool of water",
+  },
+  {
+    id: 11,
+    src: "https://images.unsplash.com/photo-1598901978648-4d1c0d66518a?q=80&w=976&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    alt: "a woman getting a back massage at a spa",
+  },
+  {
+    id: 12,
+    src: "https://images.unsplash.com/photo-1512290923902-8a9f81dc236c?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    alt: "This is the point of relaxation, the point where you feel great peace.",
+  },
+  {
+    id: 13,
+    src: "https://images.unsplash.com/photo-1620051844584-15ac31d5fccd?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    alt: "Ostheopathy with two hands formed in a triangle on the back of a woman",
+  },
+  {
+    id: 14,
+    src: "https://images.unsplash.com/photo-1548695240-f6791ec45757?q=80&w=987&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    alt: "a woman with dreadlocks in a pool of water",
+  },
+  {
+    id: 15,
+    src: "https://images.unsplash.com/photo-1526413425697-1d271fdbe7a9?q=80&w=1064&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    alt: "Photosession with Lea Kainazarova",
+  },
+  {
+    id: 16,
+    src: "https://images.unsplash.com/photo-1649751295468-953038600bef?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    alt: "a woman getting a back massage at a spa",
   },
 ];
