@@ -72,3 +72,12 @@ export interface GalleryImage {
   src: string;
   alt: string;
 }
+
+export interface Testimonial {
+  id: number;
+  authorName: string;
+  authorDesignation: string;
+  authorImage: string;
+  review: string;
+  rating: number;
+}

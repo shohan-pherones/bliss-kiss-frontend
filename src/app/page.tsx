@@ -4,6 +4,7 @@ import {
   SpecialistsWrapper,
 } from "@/components/partials";
 import GalleryPage from "./(company)/gallery/page";
+import TestimonialsPage from "./(company)/testimonials/page";
 
 const HomePage = () => {
   return (
@@ -12,6 +13,7 @@ const HomePage = () => {
       <ServicesWrapper />
       <SpecialistsWrapper />
       <GalleryPage />
+      <TestimonialsPage />
     </div>
   );
 };

@@ -5,6 +5,7 @@ import {
   NavLink,
   Service,
   SocialLink,
+  Testimonial,
 } from "@/interfaces";
 import { Facebook, Instagram, Youtube } from "lucide-react";
 
@@ -672,5 +673,37 @@ export const galleryImages: GalleryImage[] = [
     id: 16,
     src: "https://images.unsplash.com/photo-1649751295468-953038600bef?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     alt: "a woman getting a back massage at a spa",
+  },
+];
+
+export const testimonials: Testimonial[] = [
+  {
+    id: 1,
+    authorName: "Sophia Reynolds",
+    authorDesignation: "Yoga Instructor",
+    authorImage:
+      "https://images.unsplash.com/photo-1664575602554-2087b04935a5?q=80&w=987&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    review:
+      "An absolutely rejuvenating experience! The staff was warm and welcoming.",
+    rating: 5,
+  },
+  {
+    id: 2,
+    authorName: "James Carter",
+    authorDesignation: "Marketing Executive",
+    authorImage:
+      "https://images.unsplash.com/photo-1596535769582-ae8ee239e96e?q=80&w=987&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    review:
+      "The massage therapy was beyond relaxing. Highly recommend this spa!",
+    rating: 4.5,
+  },
+  {
+    id: 3,
+    authorName: "Emily Stone",
+    authorDesignation: "Freelance Designer",
+    authorImage:
+      "https://images.unsplash.com/photo-1605642969091-694bacbbf7d8?q=80&w=987&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    review: "Great ambiance and professional service. Will visit again!",
+    rating: 4,
   },
 ];
