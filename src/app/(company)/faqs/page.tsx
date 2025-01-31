@@ -1,5 +1,5 @@
 import { Accordion, SectionWrapper } from "@/components/elements";
-import { Hero } from "@/components/partials/shared";
+import { Hero } from "@/components/partials";
 import { faqItems } from "@/constants";
 
 const FAQsPage = () => {

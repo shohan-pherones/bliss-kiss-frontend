@@ -1,6 +1,6 @@
 import { Service } from "@/interfaces";
 import type { Meta, StoryObj } from "@storybook/react";
-import ServiceDetailsPartition from "../ServiceDetailsPartition";
+import ServiceDetailsPartition from "./ServiceDetailsPartition";
 
 const mockService: Service = {
   id: "1",

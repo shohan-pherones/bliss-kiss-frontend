@@ -1,7 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
 
 import type { Meta, StoryObj } from "@storybook/react";
-import Overlay from "../Overlay";
+import Overlay from "./Overlay";
 
 const meta: Meta<typeof Overlay> = {
   title: "Components/Overlay",

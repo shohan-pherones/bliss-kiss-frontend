@@ -3,7 +3,7 @@ import Accordion, {
   AccordionItem,
   AccordionItemProps,
   AccordionProps,
-} from "../Accordion";
+} from "./Accordion";
 
 export default {
   title: "Components/Accordion",

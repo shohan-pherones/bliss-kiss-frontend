@@ -1,5 +1,5 @@
 import { SectionTitle, SectionWrapper } from "@/components/elements";
-import { Hero } from "@/components/partials/shared";
+import { Hero } from "@/components/partials";
 import { aboutContents } from "@/constants";
 import { cn } from "@/lib";
 

@@ -1,6 +1,6 @@
 import { Service } from "@/interfaces";
 import type { Meta, StoryObj } from "@storybook/react";
-import ServiceCard from "../ServiceCard";
+import ServiceCard from "./ServiceCard";
 
 const mockService: Service = {
   id: "1",

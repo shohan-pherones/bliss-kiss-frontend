@@ -1,6 +1,6 @@
 import { Specialist } from "@/interfaces";
 import type { Meta, StoryObj } from "@storybook/react";
-import SpecialistCard from "../SpecialistCard";
+import SpecialistCard from "./SpecialistCard";
 
 const mockSpecialist: Specialist = {
   id: "1",

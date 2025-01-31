@@ -1,0 +1,9 @@
+export { default as Footer } from "./Footer/Footer";
+export { default as Header } from "./Header/Header";
+export { default as Hero } from "./Hero/Hero";
+export { default as ServiceBookingPartition } from "./ServiceBookingPartition/ServiceBookingPartition";
+export { default as ServiceDetailsPartition } from "./ServiceDetailsPartition/ServiceDetailsPartition";
+export { default as ServicesWrapper } from "./ServicesWrapper/ServicesWrapper";
+export { default as SpecialistDetailsPartition } from "./SpecialistDetailsPartition/SpecialistDetailsPartition";
+export { default as SpecialistHirePartition } from "./SpecialistHirePartition/SpecialistHirePartition";
+export { default as SpecialistsWrapper } from "./SpecialistsWrapper/SpecialistsWrapper";

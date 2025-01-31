@@ -1,9 +1,10 @@
-import { ServiceCard } from "@/components/blocks/services";
+import { ServiceCard } from "@/components/blocks";
 import { services } from "@/constants";
 import { Specialist } from "@/interfaces";
 import {
   calculateAge,
   capitalizeText,
+  determineBodyType,
   determineHotnessType,
   determineNudityType,
   formatBodyMeasurements,
@@ -55,6 +56,15 @@ const SpecialistDetailsPartition = ({
             <Dot size={16} />
             <b>Body Measurements:</b>{" "}
             {formatBodyMeasurements(
+              specialist.bodyMeasurements.chest,
+              specialist.bodyMeasurements.waist,
+              specialist.bodyMeasurements.hips
+            )}
+          </li>
+          <li className="flex items-center gap-2">
+            <Dot size={16} />
+            <b>Body Type:</b>{" "}
+            {determineBodyType(
               specialist.bodyMeasurements.chest,
               specialist.bodyMeasurements.waist,
               specialist.bodyMeasurements.hips

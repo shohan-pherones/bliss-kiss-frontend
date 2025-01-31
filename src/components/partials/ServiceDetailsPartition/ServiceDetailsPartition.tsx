@@ -1,4 +1,4 @@
-import { SpecialistCard } from "@/components/blocks/specialists";
+import { SpecialistCard } from "@/components/blocks";
 import { Service } from "@/interfaces";
 import { ArrowRight, Check } from "lucide-react";
 

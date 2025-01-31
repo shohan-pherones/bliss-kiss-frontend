@@ -1,6 +1,6 @@
 "use client";
 
-import { ServiceCard } from "@/components/blocks/services";
+import { ServiceCard } from "@/components/blocks";
 import { SectionTitle, SectionWrapper } from "@/components/elements";
 import { services } from "@/constants";
 import Link from "next/link";

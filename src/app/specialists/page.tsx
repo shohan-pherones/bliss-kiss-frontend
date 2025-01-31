@@ -1,5 +1,4 @@
-import { Hero } from "@/components/partials/shared";
-import { SpecialistsWrapper } from "@/components/partials/specialists";
+import { Hero, SpecialistsWrapper } from "@/components/partials";
 
 const SpecialistsPage = () => {
   return (

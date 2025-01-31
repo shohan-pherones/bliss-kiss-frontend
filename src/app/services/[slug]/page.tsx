@@ -1,9 +1,9 @@
 import { SectionWrapper } from "@/components/elements";
 import {
+  Hero,
   ServiceBookingPartition,
   ServiceDetailsPartition,
-} from "@/components/partials/services";
-import { Hero } from "@/components/partials/shared";
+} from "@/components/partials";
 import { services } from "@/constants";
 import { notFound } from "next/navigation";
 

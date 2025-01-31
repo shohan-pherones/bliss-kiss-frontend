@@ -48,21 +48,23 @@ export function formatBodyMeasurements(
   const waistIn = cmToInch(waist);
   const hipsIn = cmToInch(hips);
 
-  const bodyType = capitalizeText(determineBodyType(chestIn, waistIn, hipsIn));
-
-  return `${chestIn}-${waistIn}-${hipsIn} (${bodyType})`;
+  return `${chestIn}-${waistIn}-${hipsIn}`;
 }
 
-function determineBodyType(chest: number, waist: number, hips: number): string {
+export function determineBodyType(
+  chest: number,
+  waist: number,
+  hips: number
+): string {
   if (waist < chest && waist < hips) {
-    if (chest === hips) return "hourglass";
-    if (hips > chest) return "pear-shaped";
-    if (chest > hips) return "inverted triangle";
+    if (chest === hips) return "Hourglass";
+    if (hips > chest) return "Pear-Shaped";
+    if (chest > hips) return "Inverted Triangle";
   }
-  if (chest === waist && waist === hips) return "rectangular";
-  if (waist >= chest || waist >= hips) return "apple-shaped";
+  if (chest === waist && waist === hips) return "Rectangular";
+  if (waist >= chest || waist >= hips) return "Apple-Shaped";
 
-  return "toned";
+  return "Toned";
 }
 
 export function determineHotnessType(hotness: number): string {

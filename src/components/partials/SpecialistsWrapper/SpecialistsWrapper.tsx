@@ -1,6 +1,6 @@
 "use client";
 
-import { SpecialistCard } from "@/components/blocks/specialists";
+import { SpecialistCard } from "@/components/blocks";
 import { SectionTitle, SectionWrapper } from "@/components/elements";
 import { services } from "@/constants";
 import Link from "next/link";

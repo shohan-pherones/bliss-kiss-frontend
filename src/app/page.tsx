@@ -1,6 +1,8 @@
-import { ServicesWrapper } from "@/components/partials/services";
-import { Hero } from "@/components/partials/shared";
-import { SpecialistsWrapper } from "@/components/partials/specialists";
+import {
+  Hero,
+  ServicesWrapper,
+  SpecialistsWrapper,
+} from "@/components/partials";
 
 const HomePage = () => {
   return (
